@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/harshshekhar15/study/channel"
-	// "github.com/harshshekhar15/study/mutex"
+	// "github.com/harshshekhar15/golang-concepts/channel"
+	// "github.com/harshshekhar15/golang-concepts/mutex"
+	"github.com/harshshekhar15/golang-concepts/io"
 )
 
 func main() {
@@ -10,8 +11,11 @@ func main() {
 	// channel.RunProgram1()
 
 	// Run race program
-	channel.RunRaceProgram()
+	// channel.RunRaceProgram()
 
 	// Run mutex program
 	// mutex.Run()
+
+	// Run ioutil program
+	io.RunIoProgram()
 }
