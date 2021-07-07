@@ -4,7 +4,7 @@
 - Slice has no specified length.
 
 Declaring an array:
-var arr1 [10]int
+`var arr1 [10]int`
 
 Declaring a slice:
-var arr2 []int
+`var arr2 []int`
